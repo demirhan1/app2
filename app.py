@@ -27,4 +27,4 @@ if uploaded_file and st.button("Analyze Image"):
 
     result = analyze_image_with_llava(file_path)
     st.success("✅ Analysis Complete!")
-    st.markdown(f"**🧠 AI Analysis Result:**\n\n{result}")
+    st.markdown(f"**AI Analysis Result:**\n\n{result}")
