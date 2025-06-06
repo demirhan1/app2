@@ -24,4 +24,4 @@ def analyze_image_with_llava(image_path):
             except Exception as e:
                 continue
 
-    return result or "⚠️ No response generated."
+    return result or "No response generated."
